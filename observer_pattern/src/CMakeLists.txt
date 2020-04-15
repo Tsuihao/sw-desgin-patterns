@@ -4,9 +4,9 @@ set(SOURCES
     coronaDataCenter.cpp
     coronaDataObserver.hpp
     coronaDataObserver.cpp
-    main.cpp
 )
 
-add_executable(${CMAKE_PROJECT_NAME}_impl ${SOURCES})
-# Interface visibility to executable
-target_include_directories(${CMAKE_PROJECT_NAME}_impl PRIVATE interfaces)
+# add a library
+add_library(corona_observer_pattern_lib ${SOURCES})
+# interface visibility 
+target_include_directories(corona_observer_pattern_lib PRIVATE interfaces)

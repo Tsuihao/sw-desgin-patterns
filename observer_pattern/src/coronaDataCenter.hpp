@@ -2,8 +2,8 @@
 #define CORONADATACENTER_HPP
 
 #include <vector>
-#include "IObservable.hpp"
-#include "IObserver.hpp"
+#include "interfaces/IObservable.hpp"
+#include "interfaces/IObserver.hpp"
 
 class CoronaDataCenter : public IObservable
 {

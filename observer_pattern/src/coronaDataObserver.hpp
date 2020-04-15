@@ -1,7 +1,7 @@
 #ifndef CORONADATAOBSERVER_HPP
 #define CORONADATAOBSERVER_HPP
 
-#include "IObserver.hpp"
+#include "interfaces/IObserver.hpp"
 #include <string>
 // forward declaration
 class CoronaDataCenter;
