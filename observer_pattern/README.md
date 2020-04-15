@@ -1,7 +1,11 @@
-![Alt text](UML/observer_pattern.png)
+![Alt text](images/observer_pattern.png)
 
 # Dependency
 cmake 3.10+
+
+# Folder structure
+
+![Alt text](images/folder_structure.png)
 
 
 ## Run
@@ -10,7 +14,7 @@ cmake 3.10+
 mkdir build && cd build
 cmake ..
 make
-./ObserverPattern
+./ObserverPattern_impl
 
 ```
 
