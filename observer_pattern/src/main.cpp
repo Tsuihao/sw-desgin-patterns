@@ -25,7 +25,7 @@ int main()
     dataCenter.notify();
 
     // remove china from the list
-    std::cout << "remove China form the notification" << std::endl;
+    std::cout << "remove China fromm the notification" << std::endl;
     dataCenter.remove(&china);
 
     // set another dummy numer
